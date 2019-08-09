@@ -32,11 +32,6 @@ And run 'make workshop-check' *before* committing to make sure that changes are 
 
 
 {% comment %}
-For a workshop please delete the following block
-
-
-
-{% comment %}
 EVENTBRITE
 
 This block includes the Eventbrite registration widget if
