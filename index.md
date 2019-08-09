@@ -1,19 +1,19 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
-carpentry: "FIXME"    # what kind of Carpentry (must be either "lc" or "dc" or "swc").  
+carpentry: "lc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc").  
                       # Be sure to update the Carpentry type in _config.yml as well.  
-venue: "FIXME"        # brief name of host site without address (e.g., "Euphoric State University")
-address: "FIXME"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
-country: "FIXME"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes)
-language: "FIXME"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
-latlng: "FIXME"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
-humandate: "FIXME"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "FIXME"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: FIXME      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: FIXME        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["FIXME"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["FIXME"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-email: ["fixme@example.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+venue: "University of the Western Cape Library"        # brief name of host site without address (e.g., "Euphoric State University")
+address: "Level 6 Training Room Main Library"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+country: "za"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes)
+language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
+latlng: "-33.933190,18.626520"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
+humandate: "September 3-4, 2019"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humantime: "9:00 - 16:30"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+startdate: 2019-09-03      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2019-09-04        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+instructor: ["Oghenere Salubi", "Raniere Silva"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["TBC"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+email: ["Osalubi@uwc.ac.za"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
@@ -172,6 +172,30 @@ special instructions.
   you (e.g. sign-language interpreters, lactation facilities) please
   get in touch (using contact details below) and we will
   attempt to provide them.
+</p>
+
+{% comment %}
+
+REGISTRATION
+
+Modify the block below if there are any barriers to accessibility or
+special instructions.
+{% endcomment %}
+<p id="accessibility">
+  <strong>Registration:</strong> 	Please complete this <a href="https://forms.gle/9Tg2YNmP5bay9hi7A">Registration form</a>. Limited space is available. Places will be allocated on a first come, first served principle.
+  
+</p>
+
+{% comment %}
+
+
+SPONSORS AND ORGANISERS
+
+Modify the block below if there are any barriers to accessibility or
+special instructions.
+{% endcomment %}
+<p id="accessibility">
+  <strong>Sponsors and Organisers:</strong> The workshop is jointly organised by the University of the Western Cape Library and Information Services and eResearch Office as well as SADILaR.
 </p>
 
 {% comment %}
