@@ -175,7 +175,7 @@ Modify the block below if there are any barriers to accessibility or
 special instructions.
 {% endcomment %}
 <p id="accessibility">
-  <strong>Sponsors and Organisers:</strong> The workshop is jointly organised by the University of the Western Cape Library and Information Services, UWC eResearch Office and co-funded by the <a href="https://www.sadilar.org/">South African Centre for Digital Language Resources</a> (SADiLaR).
+  <strong>Sponsors and Organisers:</strong> The workshop is jointly organised by the University of the Western Cape's Library Services and eResearch Office within the DVC Research and Innovation Office and co-funded by the <a href="https://www.sadilar.org/">South African Centre for Digital Language Resources</a> (SADiLaR).
 </p>
 
 {% comment %}
